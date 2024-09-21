@@ -8,24 +8,77 @@
     <title>Proyecto colaborativo</title>
 </head>
 <body>
-    <div class="container">
+    <div class="text-center">
+        <a href="#fadp" role=""button data-bs-toggle="offcanvas">🌸Menu</a>
+    </div>
+    <div class="container text-center">
+    <div class="row justify-content-md-center">
         <div class="display-1"> Diagramación GRID </div>
+        <div class="row">
+            <div class="col">celda1</div>
+            <div class="col">celda2</div>
+            <div class="col">celda3</div>
+            <div class="col">celda4</div>
+            <div class="col">celda5</div>
+            <div class="col">celda6</div>
+            <div class="col">celda7</div>
+            <div class="col">celda8</div>
+            <div class="col">celda9</div>
+            <div class="col">celda10</div>
+            <div class="col">celda11</div>
+            <div class="col">celda12</div>
+        </div>
 
         <div class="row">
-            <col>celda1</col>
-            <col>celda2</col>
-            <col>celda3</col>
-            <col>celda4</col>
-            <col>celda5</col>
-            <col>celda6</col>
-            <col>celda7</col>
-            <col>celda8</col>
-            <col>celda9</col>
-            <col>celda10</col>
-            <col>celda11</col>
-            <col>celda12</col>
-        </div> 
+            <div class="col-6">Columna 6</div>
+            <div class="col-6">Columna 6</div>
+        </div>
+
+        <div class="row">
+            <div class="col-3">Columna 6</div>
+            <div class="col-6">Columna 6</div>
+            <div class="col-3">Columna 6</div>
+        </div>
+<hr>
+        <div class="row">
+            <div class="col-lg-3 col-sm-6">Col Large</div>
+            <div class="col-lg-9 col-sm-6">Col Large</div>
+
+        </div>    
     </div>
+
+    <!-- Menu Panel off Canvas -->
+
+    <!-- <a class="btn btn-primary" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+        Link with href
+      </a>
+      <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+        Button with data-bs-target
+      </button>
+        -->
+
+      <div class="offcanvas offcanvas-end " tabindex="-1" id="fadp" aria-labelledby="offcanvasExampleLabel">
+      <div class="offcanvas-header">
+      <h5 class="offcanvas-title" id="offcanvasExampleLabel">Menu</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+      <div>
+            Some text as placeholder. In real life you can have the elements you have chosen. Like, text, images, lists, etc.
+      </div>
+      <div class="dropdown mt-3">
+      <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">
+              Dropdown button
+      </button>
+      <ul class="dropdown-menu">
+      <li><a class="dropdown-item" href="#">Action</a></li>
+      <li><a class="dropdown-item" href="#">Another action</a></li>
+      <li><a class="dropdown-item" href="#">Something else here</a></li>
+      </ul>
+      </div>
+      </div>
+      </div>
+     <!-- Menu Fin -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
